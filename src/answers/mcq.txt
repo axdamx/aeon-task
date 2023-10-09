@@ -1,0 +1,114 @@
+1. Which CSS property positions the content of a table’s caption on the specified side? 
+    a. Caption-side (✅)
+    b. Cell-caption 
+    c. Table-caption 
+    d. Caption-adjust 
+
+2. What does this CSS code do? 
+    p:nth-child(2n+2) { 
+    color: #ccc; 
+    } 
+    a. It selects the 4th, 6th, 8th, etc. <p> tags. 
+    b. It selects all the even <p> tags 
+    c. It selects the 2nd, 4th, 6th, 8th, etc. (even) <p> tags starting from 2. (✅)
+    d. None of the above
+
+3. Given the following snippet, choose the correct order of arrangement of all the divs in the view. 
+<style> 
+#mainDiv { 
+display: flex; 
+} 
+#mainDiv div { 
+width: 70px; 
+height: 70px; 
+} 
+div#div1 { 
+order: 2; 
+} 
+div#div2 { 
+order: 4; 
+} 
+div#div3 { 
+order: 3; 
+} 
+div#div4 { 
+order: 1; 
+} 
+</style> 
+<body> 
+<div id="mainDiv"> 
+<div id="div1"></div> 
+<div id="div2"></div> 
+<div id="div3"></div> 
+<div id="div4" style="order: 6"></div> 
+</div> 
+</body> 
+    a. Order: #div1, #div2, #div3, and #div4 
+    b. Order: #div2, #div4, #div3, and #div1 
+    c. Order: #div1, #div3, #div2, and #div4 (✅)
+    d. Order: #div3, #div1, #div2, and #div4
+
+4. 
+    c. .tabs { 
+    background-color: lightgreen; color: white; 
+    border: none; 
+    padding: 20px; 
+    text-align: center; 
+    font-size: 16px; 
+    } 
+    .tabs:hover { 
+    background-color: green; 
+    } (✅)
+
+5.
+    d. 
+    <fieldset style="height: 100px; width: 200px"> 
+    <legend>Coding is Fun</legend> 
+    </fieldset> (✅)
+
+6. If you want to wrap a block of text around an image, which CSS property would you use? 
+    a. Wrap 
+    b. Align 
+    c. Push 
+    d. Float (✅)
+
+7. The following HTML tags are used to display the data in tabular form. Which one is false? 
+    a. <tr> - Defines a row in a table. 
+    b. <th> - Defines a cell in a table. (✅)
+    c. <caption> - This tag defines the table caption. 
+    d. <table> - Defines a table. 
+
+8. Which of the following methods is/are invoked when there is an error during rendering in the React lifecycle? 
+    a. getDerivedStateFromError() 
+    b. componentDidCatch() 
+    c. Both A and B. (✅)
+    d. None of the above
+
+9. Assuming options state values are given in the constructor, which code should wrap the components that are going to have access to the context inside a class component? 
+    a. <NotesContext.Provider value={this.state.notes}> //code </NotesContext.Provider> (✅)
+    b. <NotesContext value={this.state.notes}> //code </Notes.Provider> 
+    c. <NotesContext.Provider value={this.state.notes}> //code  <Notes.Provider/> 
+    d. <NotesContext.Provider value={this.state.notes}/> //code <Notes.Provider> 
+
+10. Which of the following functions gets invoked after the render() function when `state` or `props` is updated? 
+    a. componentDidUpdate() (✅)
+    b. componentWillMount() 
+    c. componentDidMount() 
+    d. componentWillReceiveProps() 
+
+11. Which property is used to set the alignment of items inside the flexible container of CSS? 
+    a. align-media 
+    b. align-layout 
+    c. align-self 
+    d. align-items (✅)
+    
+12. What element type does this render? 
+    a. Div 
+    b. Span (✅)
+    c. Component 
+    d. None above
+
+
+
+
+
