@@ -1,15 +1,15 @@
 import './App.css'
-// import Calculator from './answers/Calculator'
+import Calculator from './answers/Calculator'
 // import Navbar from './answers/Navbar'
-import SumOfArray from './answers/SumOfArray';
+// import SumOfArray from './answers/SumOfArray';
 
 function App() {
   // for question 1
-  // return <Calculator />
+  return <Calculator />
   // for question 2
   // return <Navbar /> 
   // for question 3
-  return <SumOfArray />
+  // return <SumOfArray />
    
   // Example usage:
   // console.log(twoSum([4, 11, 17, 25], 21));        // [1, 4] (4 + 17 = 21)
